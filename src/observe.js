@@ -5,7 +5,7 @@ export function Observe(target, prop, descriptor) {
     function set(newValue) {
         if (currentValue !== newValue) {
             currentValue = newValue;
-            target._render();
+            this._render();
         }
     }
 
