@@ -3,7 +3,7 @@ import { templiteral } from 'templiteral';
 function noop() {}
 
 export function template(strings, ...values) {
-    return [strings, values];
+    return [strings, ...values];
 }
 
 export function Component(config) {
