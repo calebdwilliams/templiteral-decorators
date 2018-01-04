@@ -1,0 +1,10 @@
+{
+    "plugins": [
+        "transform-es2015-template-literals",
+        "syntax-decorators",
+        "transform-decorators-legacy",
+        "transform-custom-element-classes",
+        "transform-class-properties",
+        "transform-es2015-classes"
+    ]
+}
